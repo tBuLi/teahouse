@@ -7,5 +7,7 @@ dependencies:
   - ipycanvas
   - numpy
   - anywidget
+  - sympy
+  - jupyter_app_launcher
   - pip:
       - kingdon
