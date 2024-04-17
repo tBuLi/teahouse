@@ -8,9 +8,8 @@ dependencies:
   - numpy
   - ipywidgets
   - comm
-  - anywidget
   - psygnal
   - sympy
   - pip:
       - kingdon
-      - watchfiles
+      -     anywidget
