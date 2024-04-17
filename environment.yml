@@ -6,9 +6,9 @@ dependencies:
   - xeus-python
   - ipycanvas
   - numpy
-  - anywidget>=0.9.0
   - ipywidgets
   - psygnal
   - sympy
   - pip:
       - kingdon
+      - anywidget
