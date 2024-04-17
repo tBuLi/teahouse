@@ -32,7 +32,6 @@ jobs:
         run: |
           cp README.md content
           jupyter lite build --contents content --output-dir dist
-          jupyter app_launcher build repl dist
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
