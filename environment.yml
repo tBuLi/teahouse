@@ -7,8 +7,10 @@ dependencies:
   - ipycanvas
   - numpy
   - ipywidgets
+  - watchfiles
+  - comm
+  - anywidget
   - psygnal
   - sympy
   - pip:
       - kingdon
-      - anywidget
