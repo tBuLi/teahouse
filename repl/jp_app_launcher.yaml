@@ -1,0 +1,6 @@
+- title: Distances and Angles
+  description: Example of opening a notebook in dashboard mode without Voila
+  source: ../../2DPGA/ex_2dpga_distances_and_angles.ipynb
+  cwd: ../../2DPGA
+  type: notebook
+  catalog: 2DPGA
