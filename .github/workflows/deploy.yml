@@ -27,8 +27,6 @@ jobs:
         run: |
           cp README.md content
           jupyter lite build --contents content --output-dir dist
-          jupyter app_launcher build ${{ github.workspace }} dist
-          jupyter lite build --contents content --output-dir dist
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
