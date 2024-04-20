@@ -11,7 +11,7 @@ on:
 jobs:
   build:
     env:
-      JUPYTER_APP_LAUNCHER_PATH: jp_app_launcher_config.yaml
+      JUPYTER_APP_LAUNCHER_PATH: $GITHUB_WORKSPACE
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
