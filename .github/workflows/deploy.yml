@@ -11,7 +11,7 @@ on:
 jobs:
   build:
     env:
-      JUPYTER_APP_LAUNCHER_PATH: $GITHUB_WORKSPACE
+      JUPYTER_APP_LAUNCHER_PATH: ${{ github.workspace }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -26,7 +26,8 @@ jobs:
       - name: Build the JupyterLite site
         run: |
           cp README.md content
-          jupyter app_launcher build $GITHUB_WORKSPACE dist
+          jupyter lite build --contents content --output-dir dist
+          jupyter app_launcher build ${{ github.workspace }} dist
           jupyter lite build --contents content --output-dir dist
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
