@@ -4,6 +4,7 @@
       "appName": "Kingdon Teahouse",
       "disabledExtensions": [
         "@jupyterlab/drawio-extension",
+        "@jupyterlab/launcher-extension",
         "jupyterlab-kernel-spy",
         "jupyterlab-tour"
       ]
