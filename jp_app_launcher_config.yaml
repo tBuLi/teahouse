@@ -1,5 +1,6 @@
 - title: Distances and Angles
   source: content/2DPGA/ex_2dpga_distances_and_angles.ipynb
   cwd: content/2DPGA
+  icon: images/pga2d_distances_and_angles.jpg
   type: notebook
   catalog: 2DPGA
