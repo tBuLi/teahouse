@@ -26,6 +26,7 @@ jobs:
       - name: Build the JupyterLite site
         run: |
           cp README.md content
+          jupyter app_launcher build $GITHUB_WORKSPACE dist
           jupyter lite build --contents content --output-dir dist
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
