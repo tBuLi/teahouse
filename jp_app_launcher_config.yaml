@@ -1,6 +1,69 @@
+# 2DPGA
+
 - title: Distances and Angles
   source: content/2DPGA/ex_2dpga_distances_and_angles.ipynb
-  cwd: content/2DPGA
   icon: images/pga2d_distances_and_angles.jpg
   type: notebook
   catalog: 2DPGA
+
+- title: Points and Lines
+  source: content/2DPGA/ex_2dpga_points_and_lines.ipynb
+  icon: images/pga2d_points_and_lines.jpg
+  type: notebook
+  catalog: 2DPGA
+
+- title: Project and Reject
+  source: content/2DPGA/ex_2dpga_project_and_reject.ipynb
+  icon: images/pga2d_project_and_reject.jpg
+  type: notebook
+  catalog: 2DPGA
+
+- title: Inverse Kinematics
+  source: content/2DPGA/ex_2dpga_inverse_kinematics.ipynb
+  icon: images/pga2d_inverse_kinematics.jpg
+  type: notebook
+  catalog: 2DPGA
+
+- title: Fivebar
+  source: content/2DPGA/ex_2dpga_fivebar.ipynb
+  type: notebook
+  catalog: 2DPGA
+
+# 3DPGA
+
+- title: Distances and Angles 3D
+  source: content/3DPGA/ex_3dpga_distances_and_angles.ipynb
+  icon: images/pga3d_distances_and_angles.jpg
+  type: notebook
+  catalog: 3DPGA
+
+- title: Points and Lines 3D
+  source: content/3DPGA/ex_3dpga_points_and_lines.ipynb
+  icon: images/pga3d_points_and_lines.jpg
+  type: notebook
+  catalog: 3DPGA
+
+# 3DCGA
+
+- title: Intersections
+  source: content/3DCGA/ex_3dcga_intersections.ipynb
+  icon: images/cga3d_intersections.jpg
+  type: notebook
+  catalog: 3DCGA
+
+# Misc
+
+- title: Pointcloud Fitting
+  source: content/ex_pointcloud.ipynb
+  type: notebook
+  catalog: Misc
+
+- title: Symbolic Manipulation
+  source: content/ex_symbolic.ipynb
+  type: notebook
+  catalog: Misc
+
+- title: High Performance Demo
+  source: content/ex_high_performance.ipynb
+  type: notebook
+  catalog: Misc

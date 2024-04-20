@@ -10,8 +10,6 @@ on:
 
 jobs:
   build:
-    env:
-      JUPYTER_APP_LAUNCHER_PATH: ${{ github.workspace }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
