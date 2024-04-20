@@ -10,6 +10,8 @@ on:
 
 jobs:
   build:
+    env:
+      JUPYTER_APP_LAUNCHER_PATH: jp_app_launcher_config.yaml
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
