@@ -1,3 +1,20 @@
+# Useful Info
+
+- title: README
+  source: README.md
+  type: markdown
+  catalog: Useful Info
+
+- title: Documentation
+  source: https://kingdon.readthedocs.io/
+  type: url
+  catalog: Useful Info
+
+- title: ganja.js coffeeshop
+  source: https://enkimute.github.io/ganja.js/examples/coffeeshop.html
+  type: url
+  catalog: Useful Info
+
 # 2DPGA
 
 - title: Distances and Angles
@@ -8,24 +25,25 @@
 
 - title: Points and Lines
   source: content/2DPGA/ex_2dpga_points_and_lines.ipynb
-  icon: images/pga2d_points_and_lines.jpg
+  icon: images/pga2d_points_and_lines.svg
   type: notebook
   catalog: 2DPGA
 
 - title: Project and Reject
   source: content/2DPGA/ex_2dpga_project_and_reject.ipynb
-  icon: images/pga2d_project_and_reject.jpg
+  icon: images/pga2d_project_and_reject.svg
   type: notebook
   catalog: 2DPGA
 
 - title: Inverse Kinematics
   source: content/2DPGA/ex_2dpga_inverse_kinematics.ipynb
-  icon: images/pga2d_inverse_kinematics.jpg
+  icon: images/pga2d_inverse_kinematics.svg
   type: notebook
   catalog: 2DPGA
 
 - title: Fivebar
   source: content/2DPGA/ex_2dpga_fivebar.ipynb
+  icon: images/pga2d_fivebar.svg
   type: notebook
   catalog: 2DPGA
 
@@ -33,13 +51,13 @@
 
 - title: Distances and Angles 3D
   source: content/3DPGA/ex_3dpga_distances_and_angles.ipynb
-  icon: images/pga3d_distances_and_angles.jpg
+  icon: images/pga3d_distances_and_angles.svg
   type: notebook
   catalog: 3DPGA
 
 - title: Points and Lines 3D
   source: content/3DPGA/ex_3dpga_points_and_lines.ipynb
-  icon: images/pga3d_points_and_lines.jpg
+  icon: images/pga3d_points_and_lines.svg
   type: notebook
   catalog: 3DPGA
 
@@ -47,7 +65,7 @@
 
 - title: Intersections
   source: content/3DCGA/ex_3dcga_intersections.ipynb
-  icon: images/cga3d_intersections.jpg
+  icon: images/cga3d_intersections.svg
   type: notebook
   catalog: 3DCGA
 
