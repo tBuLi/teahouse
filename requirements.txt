@@ -19,4 +19,4 @@ jupyterlab_miami_nights
 jupyter_app_launcher
 
 # Teahouse dependencies
-anywidget
+anywidget==0.9.7
