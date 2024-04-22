@@ -17,3 +17,6 @@ jupyterlab_miami_nights
 
 # Customized launcher
 jupyter_app_launcher
+
+# Teahouse dependencies
+anywidget
