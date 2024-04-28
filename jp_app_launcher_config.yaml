@@ -38,6 +38,11 @@
   type: notebook
   catalog: 2DPGA
 
+- title: Pointcloud Fitting
+  source: content/ex_pointcloud.ipynb
+  type: notebook
+  catalog: 2DPGA
+
 # 3DPGA
 
 - title: Distances and Angles 3D
@@ -62,17 +67,7 @@
 
 # Misc
 
-- title: Pointcloud Fitting
-  source: content/ex_pointcloud.ipynb
-  type: notebook
-  catalog: Misc
-
 - title: Symbolic Manipulation
   source: content/ex_symbolic.ipynb
-  type: notebook
-  catalog: Misc
-
-- title: High Performance Demo
-  source: content/ex_high_performance.ipynb
   type: notebook
   catalog: Misc
