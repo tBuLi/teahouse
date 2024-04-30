@@ -57,19 +57,18 @@
   type: notebook
   catalog: 3DPGA
 
-# 3DCGA
-
-- title: Intersections
-  source: content/3DCGA/ex_3dcga_intersections.ipynb
-  icon: images/cga3d_intersections.svg
-  type: notebook
-  catalog: 3DCGA
-
 # 2DCGA
 
 - title: Distances and Angles
   source: content/2DCGA/ex_2dcga_points_and_circles.ipynb
   icon: images/cga2d_points_and_circles.svg
+  type: notebook
+  catalog: 2DCGA
+
+# 3DCGA
+
+- title: Intersections
+  source: content/3DCGA/ex_3dcga_intersections.ipynb
   type: notebook
   catalog: 3DCGA
 
