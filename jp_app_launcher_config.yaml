@@ -65,6 +65,14 @@
   type: notebook
   catalog: 3DCGA
 
+# 2DCGA
+
+- title: Distances and Angles
+  source: content/2DCGA/ex_2dcga_points_and_circles.ipynb
+  icon: images/cga2d_points_and_circles.svg
+  type: notebook
+  catalog: 3DCGA
+
 # Misc
 
 - title: Symbolic Manipulation
