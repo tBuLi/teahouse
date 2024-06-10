@@ -4,7 +4,7 @@ In the [Kingdon Teahouse](https://tbuli.github.io/teahouse/) you can try the
 [kingdon](https://github.com/tBuLi/kingdon) geometric algebra library directly in the browser.
 The teahouse offers a carefully catered selection of exquisite kingdon samples to help 
 you get started with [Geometric Algebra](https://bivector.net/).
-And yes, ganja.js usage is condoned in kingdon's teahouse.
+And yes, ganja.js usage is tolerated in kingdon's teahouse.
 
 ## ✨ Try it in your browser ✨
 
