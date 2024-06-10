@@ -20,3 +20,4 @@ jupyter_app_launcher
 
 # Teahouse dependencies
 anywidget==0.9.9
+widgetsnbextension==4.0.10
