@@ -5,7 +5,7 @@ notebook~=7.1.2
 
 
 # Python kernel (optional)
-jupyterlite-pyodide-kernel==0.3.1
+jupyterlite-pyodide-kernel==0.3.2
 
 # JavaScript kernel (optional)
 jupyterlite-javascript-kernel==0.3.0
@@ -20,4 +20,3 @@ jupyter_app_launcher
 
 # Teahouse dependencies
 anywidget==0.9.9
-widgetsnbextension==4.0.10
