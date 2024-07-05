@@ -38,6 +38,12 @@
   type: notebook
   catalog: 2DPGA
 
+- title: Tesseract on a string
+  source: content/2DPGA/ex_2dpga_hypercube_on_string.ipynb
+  icon: images/pga2d_hypercube_on_string.svg
+  type: notebook
+  catalog: 2DPGA
+
 - title: Pointcloud Fitting
   source: content/ex_pointcloud.ipynb
   type: notebook
