@@ -63,6 +63,11 @@
   type: notebook
   catalog: 3DPGA
 
+- title: Thin Lens
+  source: content/3DPGA/ex_3dpga_thinlens.ipynb
+  type: notebook
+  catalog: 3DPGA
+
 # 2DCGA
 
 - title: Distances and Angles
