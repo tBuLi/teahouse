@@ -68,6 +68,11 @@
   type: notebook
   catalog: 3DPGA
 
+- title: Beam on two strings
+  source: content/3DPGA/ex_3dpga_beam_hooke_law.ipynb
+  type: notebook
+  catalog: 3DPGA
+
 # 2DCGA
 
 - title: Distances and Angles
@@ -83,9 +88,52 @@
   type: notebook
   catalog: 3DCGA
 
+- title: Parametric Surface
+  source: content/3DCGA/ex_3dcga_parametric_surface.ipynb
+  type: notebook
+  catalog: 3DCGA
+
 # Misc
 
 - title: Symbolic Manipulation
   source: content/ex_symbolic.ipynb
   type: notebook
   catalog: Misc
+
+# Exercises
+
+- title: Spider 1
+  source: content/exercises/spider1.ipynb
+  icon: images/exercise_spider1.svg
+  type: notebook
+  catalog: Exercises
+
+- title: Spider 2
+  source: content/exercises/spider2.ipynb
+  icon: images/exercise_spider2.svg
+  type: notebook
+  catalog: Exercises
+
+- title: Spider 3
+  source: content/exercises/spider3.ipynb
+  icon: images/exercise_spider3.svg
+  type: notebook
+  catalog: Exercises
+
+- title: Spider 4
+  source: content/exercises/spider4.ipynb
+  icon: images/exercise_spider4.svg
+  type: notebook
+  catalog: Exercises
+
+- title: Spider 5
+  source: content/exercises/spider5.ipynb
+  icon: images/exercise_spider5.svg
+  type: notebook
+  catalog: Exercises
+
+- title: Spider 6
+  source: content/exercises/spider6.ipynb
+  icon: images/exercise_spider6.svg
+  type: notebook
+  catalog: Exercises
