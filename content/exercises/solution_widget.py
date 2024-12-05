@@ -231,7 +231,6 @@ def graph_func():
 alg.graph(
     graph_func,
     grid=True, labels=True, lineWidth=4, pointRadius=4, animate=True,
-    width='100%'
 )
 ''',
 }
@@ -289,6 +288,9 @@ class SolutionWidget(anywidget.AnyWidget):
     """
     solution = traitlets.Unicode().tag(sync=True)
     show = traitlets.Bool(0).tag(sync=True)
+
+    def __repr__(self):
+        return f"{self.__class__.__name__}()"
 
     def __init__(self, exercise: str, *args, **kwargs):
         super().__init__(*args, solution=SOLUTIONS[exercise], **kwargs)
