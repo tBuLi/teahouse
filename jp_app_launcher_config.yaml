@@ -6,6 +6,21 @@
   type: markdown
   catalog: Other
 
+- title: 2DPGA Cheat Sheet
+  source: https://bivector.net/2DPGA.pdf
+  type: url
+  catalog: Other
+  args:
+    createNewWindow: true
+
+- title: 3DPGA Cheat Sheet
+  source: https://bivector.net/3DPGA.pdf
+  type: url
+  catalog: Other
+  args:
+    createNewWindow: true
+
+
 # 2DPGA
 
 - title: Distances and Angles
