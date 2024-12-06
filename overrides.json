@@ -1,0 +1,4 @@
+{
+    "@jupyterlab/notebook-extension:tracker": {"windowingMode": "defer"}
+}
+  
