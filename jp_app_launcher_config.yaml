@@ -64,6 +64,11 @@
   type: notebook
   catalog: 2DPGA
 
+- title: Boids Algorithm
+  source: content/ex_2dpga_boids.ipynb
+  type: notebook
+  catalog: 2DPGA
+
 # 3DPGA
 
 - title: Distances and Angles 3D
