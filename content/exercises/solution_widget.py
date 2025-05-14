@@ -42,30 +42,27 @@ alg.graph(
 )
 """,
     'spider2': """
-def sw(R, items):
-    return [R >> item for item in items]
-
 def graph_func():
     L2 = (P1 & P2).normalized()
     
     # Solution 1, 2
-    triangle2 = [L1 >> p for p in triangle1]
-    triangle3 = sw(L2, triangle2)  # Alternative way to do the same.
+    triangle2 = L1 >> triangle1
+    triangle3 = L2 >> triangle2
     
     # Solution 3
-    triangle3 = [(L2*L1) >> p for p in triangle1]
+    triangle3 = (L2*L1) >> triangle1
     
     # Solution 5
     L3 = (L1 + L2).normalized()
 
     # Solution 6
-    triangle4 = [(L3*L1) >> p for p in triangle1]
+    triangle4 = (L3*L1) >> triangle1
 
     # Solution 7
-    triangle5 = [P2 >> p for p in triangle1]
+    triangle5 = P2 >> triangle1
 
     # Solution EXTRA
-    triangle4 = [(((L2|alg.blades.e012.dual())+L1)*L1) >> p for p in triangle1]
+    triangle4 = (((L2|alg.blades.e012.dual())+L1)*L1) >> triangle1
     
     # now return a list of things to render.
     return [
@@ -86,10 +83,6 @@ alg.graph(
 )
 """,
     'spider3': '''
-def sw(R, items):
-    """ Sandwich all items by R. """
-    return [R >> item for item in items]
-
 def graph_func():
     t = timeit.default_timer() % (2 * math.pi)  # Grab the current time modulo 2 pi.
     
@@ -99,7 +92,7 @@ def graph_func():
     R = ( -0.5 * t * P1 ).exp()
     
     # Solution 2
-    triangle2 = sw(R, triangle1)
+    triangle2 = R >> triangle1
 
     # Solution 3
     L2 = L1 | alg.blades.e0.dual()  # Dot with the origin
@@ -111,7 +104,7 @@ def graph_func():
     T = ( -0.5 * t * P2 ).exp()
     
     # Solution 6
-    triangle3 = sw(T, triangle1)
+    triangle3 = T >> triangle1
     
     return [
         "Spider Workshop - Exponentials - around and along",
@@ -189,7 +182,7 @@ def graph_func():
         inverse_kinematics(leg.chain, base, target)
     # move the goals forward
     R = (-0.5*0.5*time*AXIS).exp()
-    goals = [R >> g for g in INITIAL_GOALS]
+    goals = R >> INITIAL_GOALS
     
     # loop over all legs. If our target is too far from our goal, and the legs before
     # and after us are not active, then we become active.
