@@ -65,7 +65,7 @@
   catalog: 2DPGA
 
 - title: Boids Algorithm
-  source: content/ex_2dpga_boids.ipynb
+  source: content/2DPGA/ex_2dpga_boids.ipynb
   type: notebook
   catalog: 2DPGA
 
@@ -119,6 +119,23 @@
   source: content/ex_symbolic.ipynb
   type: notebook
   catalog: Misc
+
+# OPNS
+
+- title: Mother Algebra
+  source: content/OPNS/MotherAlgebra.ipynb
+  type: notebook
+  catalog: Exotic Algebras with OPNS renderer
+
+- title: 2DCSGA
+  source: content/OPNS/2DCSGA.ipynb
+  type: notebook
+  catalog: Exotic Algebras with OPNS renderer
+
+- title: 3DCCGA
+  source: content/OPNS/3DCCGA.ipynb
+  type: notebook
+  catalog: Exotic Algebras with OPNS renderer
 
 # Exercises
 
