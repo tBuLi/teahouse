@@ -116,12 +116,12 @@
 # Misc
 
 - title: Symbolic Manipulation
-  source: content/ex_symbolic.ipynb
+  source: content/misc/ex_symbolic.ipynb
   type: notebook
   catalog: Misc
 
 - title: Geometric Tolerance Analysis
-  source: content/ex_tolerance_analysis.ipynb
+  source: content/misc/ex_tolerance_analysis.ipynb
   type: notebook
   catalog: Misc
 
