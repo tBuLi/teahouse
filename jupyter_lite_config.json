@@ -1,0 +1,9 @@
+{
+  "PyodideLockAddon": {
+    "enabled": true,
+    "specs": ["--group kernel"],
+    "prefetch_extra": ["kingdon"],
+    "pyodide_lock_uv_options": {"extra_uv_args": ["--overrides=pyodide-overrides.txt"]},
+    "patches": {"packages": {"ipywidgets": {"depends": ["comm", "ipython", "traitlets"]}}}
+  }
+}

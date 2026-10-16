@@ -1,0 +1,2 @@
+# Pyodide ships mpmath 1.4.1 alongside sympy 1.14.0, whose metadata demands mpmath<1.4; without this override uv refuses to lock anything that needs sympy.
+mpmath

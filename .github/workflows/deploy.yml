@@ -7,6 +7,8 @@ on:
   pull_request:
     branches:
       - '*'
+  # kingdon is baked in at build time, so a new kingdon release needs a rebuild.
+  workflow_dispatch:
 
 jobs:
   build:
@@ -14,13 +16,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v10
         with:
           python-version: '3.12'
+          activate-environment: true
       - name: Install the dependencies
-        run: |
-          python -m pip install -r requirements.txt
+        run: uv sync --frozen
       - name: Build the JupyterLite site
         run: |
           cp README.md content
