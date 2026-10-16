@@ -1,0 +1,5 @@
+/* JupyterLab has no setting to hide its default launcher cards, so hide every card not declared in jp_app_launcher_config.yaml: the kernel cards, and the cards with a built-in ui-components icon (app launcher icons are named by UUID). */
+.jp-Launcher-section:has(.jp-Launcher-kernelIcon),
+.jp-LauncherCard:has(svg[data-icon^="ui-components:"]) {
+  display: none;
+}

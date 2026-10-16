@@ -6,6 +6,18 @@
   type: markdown
   catalog: Other
 
+- title: Introduction
+  source: content/introduction.ipynb
+  icon: images/introduction.svg
+  type: notebook
+  catalog: Other
+
+- title: New Notebook
+  source: templates/new_notebook.ipynb
+  icon: images/new_notebook.svg
+  type: notebook
+  catalog: Other
+
 - title: 2DPGA Cheat Sheet
   source: https://bivector.net/2DPGA.pdf
   type: url
@@ -61,11 +73,13 @@
 
 - title: Pointcloud Fitting
   source: content/ex_pointcloud.ipynb
+  icon: images/pga2d_pointcloud.svg
   type: notebook
   catalog: 2DPGA
 
 - title: Boids Algorithm
   source: content/2DPGA/ex_2dpga_boids.ipynb
+  icon: images/pga2d_boids.svg
   type: notebook
   catalog: 2DPGA
 
@@ -85,11 +99,13 @@
 
 - title: Thin Lens
   source: content/3DPGA/ex_3dpga_thinlens.ipynb
+  icon: images/pga3d_thinlens.svg
   type: notebook
   catalog: 3DPGA
 
 - title: Beam on two strings
   source: content/3DPGA/ex_3dpga_beam_hooke_law.ipynb
+  icon: images/pga3d_beam_hooke_law.svg
   type: notebook
   catalog: 3DPGA
 
@@ -105,11 +121,13 @@
 
 - title: Intersections
   source: content/3DCGA/ex_3dcga_intersections.ipynb
+  icon: images/cga3d_intersections.svg
   type: notebook
   catalog: 3DCGA
 
 - title: Parametric Surface
   source: content/3DCGA/ex_3dcga_parametric_surface.ipynb
+  icon: images/cga3d_parametric_surface.svg
   type: notebook
   catalog: 3DCGA
 
@@ -129,16 +147,19 @@
 
 - title: Mother Algebra
   source: content/OPNS/MotherAlgebra.ipynb
+  icon: images/opns_mother_algebra.svg
   type: notebook
   catalog: Exotic Algebras with OPNS renderer
 
 - title: 2DCSGA
   source: content/OPNS/2DCSGA.ipynb
+  icon: images/opns_2dcsga.svg
   type: notebook
   catalog: Exotic Algebras with OPNS renderer
 
 - title: 3DCCGA
   source: content/OPNS/3DCCGA.ipynb
+  icon: images/opns_3dccga.svg
   type: notebook
   catalog: Exotic Algebras with OPNS renderer
 

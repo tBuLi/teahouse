@@ -27,6 +27,9 @@ jobs:
           jupyter lite build --contents content --output-dir dist
           jupyter app_launcher build ${{ github.workspace }} dist
           jupyter lite build --contents content --output-dir dist
+          cp launcher.css dist/lab/
+          sed -i 's|</head>|<link rel="stylesheet" href="launcher.css" /></head>|' dist/lab/index.html
+          grep -q launcher.css dist/lab/index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
