@@ -83,6 +83,12 @@
   type: notebook
   catalog: 2DPGA
 
+- title: Circular Splines
+  source: content/2DPGA/ex_2dpga_circular_splines.ipynb
+  icon: images/pga2d_circular_splines.svg
+  type: notebook
+  catalog: 2DPGA
+
 # 3DPGA
 
 - title: Distances and Angles 3D
