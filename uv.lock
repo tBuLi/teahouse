@@ -1229,16 +1229,16 @@ lock = [
 
 [[package]]
 name = "kingdon"
-version = "3.1.0"
+version = "3.1.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "anywidget" },
     { name = "numpy" },
     { name = "sympy" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/86/06/9762f55668484d95d73159a4633ef34cab601f1e0d87cd8fa7474fd8467b/kingdon-3.1.0.tar.gz", hash = "sha256:ca96a5fca82bf74cdc6059c1a831423ddc6d3491394b9557902e80a7aae6a850", size = 1601423, upload-time = "2026-11-01T15:53:02.171Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/61/c0/3fa0d049a947edd5cd00c75a96e4217b0f313507cd2f3a44db5476ffd63e/kingdon-3.1.1.tar.gz", hash = "sha256:9070265a9501c14b91cf48e11e37ef02083e06c4285b037b7f024f148fabb350", size = 1601968, upload-time = "2026-11-04T10:20:18.835Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/11/34/d2fb7a3ee2993125038d51ffe7f99a572b14371e5001062ff40ab5df1a87/kingdon-3.1.0-py3-none-any.whl", hash = "sha256:62c51d75d980719d466117a6b053d26a39ad49931fef3879428a3e20ed891ff1", size = 75020, upload-time = "2026-11-01T15:53:00.487Z" },
+    { url = "https://files.pythonhosted.org/packages/41/4c/671a534ec43eb14aff3b6a384315e15eed5b3148f52ef05f833b5c377864/kingdon-3.1.1-py3-none-any.whl", hash = "sha256:c90c99008989d5086a7b50da16e1e91bf056be8d57bbf2ec76def2f0bf09a0f4", size = 75327, upload-time = "2026-11-04T10:20:17.097Z" },
 ]
 
 [[package]]
