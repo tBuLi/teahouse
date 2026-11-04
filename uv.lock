@@ -1,5 +1,5 @@
 version = 1
-revision = 3
+revision = 5
 requires-python = ">=3.12"
 resolution-markers = [
     "python_full_version >= '3.14'",
@@ -1229,16 +1229,16 @@ lock = [
 
 [[package]]
 name = "kingdon"
-version = "3.0.0"
+version = "3.1.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "anywidget" },
     { name = "numpy" },
     { name = "sympy" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/cc/ff/8c181d0bcd4ed41e122efd14cbb457379ff16cbcab56e5c3d6ee7f6f013d/kingdon-3.0.0.tar.gz", hash = "sha256:77e6f3442b30f75daae33c73dc6086f175e9c70e5c2809bf411ecf7ff97d6e92", size = 1334676, upload-time = "2026-09-04T14:43:57.725Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/86/06/9762f55668484d95d73159a4633ef34cab601f1e0d87cd8fa7474fd8467b/kingdon-3.1.0.tar.gz", hash = "sha256:ca96a5fca82bf74cdc6059c1a831423ddc6d3491394b9557902e80a7aae6a850", size = 1601423, upload-time = "2026-11-01T15:53:02.171Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/1e/b2/23032bb727738351bd68f5e7b988bf07a4a057335693e54741359da6a01f/kingdon-3.0.0-py2.py3-none-any.whl", hash = "sha256:5ed2e6706e7f9b72054506060ba7901572a867103cdde4532f21a2228ebd58ed", size = 73107, upload-time = "2026-09-04T14:43:56.203Z" },
+    { url = "https://files.pythonhosted.org/packages/11/34/d2fb7a3ee2993125038d51ffe7f99a572b14371e5001062ff40ab5df1a87/kingdon-3.1.0-py3-none-any.whl", hash = "sha256:62c51d75d980719d466117a6b053d26a39ad49931fef3879428a3e20ed891ff1", size = 75020, upload-time = "2026-11-01T15:53:00.487Z" },
 ]
 
 [[package]]
@@ -2465,8 +2465,9 @@ wheels = [
 
 [[package]]
 name = "teahouse"
-version = "0.1.0"
+version = "0.2.0"
 source = { virtual = "." }
+default-groups = ["kernel"]
 dependencies = [
     { name = "jupyter-app-launcher" },
     { name = "jupyterlab" },
